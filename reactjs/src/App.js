@@ -22,9 +22,7 @@ function App() {
   return (
     <div className="App">
       {email.map((e, index) => (
-        <div key={index}>
-          {index + 1} - Email : {e.email}
-        </div>
+        <div key={index}>{e.email}</div>
       ))}
     </div>
   );
